@@ -230,7 +230,7 @@ function reset() {
 <style>
 :root { --bg:#020617; --panel:rgba(255,255,255,.06); --muted:#94a3b8; --brand:#3b82f6; }
 * { box-sizing: border-box; }
-body { margin:0; background: radial-gradient(circle at 50% -20%, #0b1027, #000); color:#f1f5f9; font-family: Inter, system-ui, sans-serif; }
+body { margin:0; background: radial-gradient(circle at 50% -20%, #0b1027, #000); color:#f1f5f9; font-family: Inter, system-ui, sans-serif; min-height: 100vh;}
 .app { padding: 24px 16px 60px; max-width: 1100px; margin: 0 auto; }
 h1 { text-align:center; margin: 0 0 18px; font-weight: 700; }
 .controls { background: var(--panel); border-radius: 16px; padding: 16px; }
