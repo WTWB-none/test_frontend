@@ -219,7 +219,7 @@ async function analyzeOnly() {
   }
 }
 
-function downloadBits() { window.open("http://127.0.0.1:3000/api/bits", "_blank"); }
+function downloadBits() { window.open("https://test-backend-iqyp.onrender.com/api/bits", "_blank"); }
 function reset() {
   step.value = 0; progress.value = 0; loading.value = false;
   logs.value = []; result.value = null; revealedNumbers.value = [];
